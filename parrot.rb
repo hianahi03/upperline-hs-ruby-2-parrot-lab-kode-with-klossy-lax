@@ -4,14 +4,26 @@ def happy_parrot(thing)
 end
 
 # Boring Parrot - Write a method for a boring parrot that just returns whatever string you give him as an argument.
+def boring_parrot(statement)
+  statement
+end
+
+puts boring_parrot("hey parrot")
 
 
+# Math Parrot - Create a method that accepts two numbers as arguments and adds them together!
+def math_parrot(number_one, number_two)
+  number_one + number_two
+end
 
-# Math Parrot - Create a method that accepts two numbers as arguments and adds them together! 
-
+puts math_parrot(2, 5)
 
 
 # Friendly Parrot - This parrot greets people by returning their name and age (don't forget to pass that information in as arguments).
+def friendly_parrot(name, age)
+  "Hi, Are you #{name}? You're #{age} years old."
+end
+puts friendly_parrot("Marcela", 43).upcase
 
 
 
